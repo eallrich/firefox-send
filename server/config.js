@@ -16,7 +16,7 @@ const conf = convict({
   },
   expire_times_seconds: {
     format: Array,
-    default: [300, 3600, 86400, 604800],
+    default: [300, 3600, 86400, 259200, 604800, 2678400],
     env: 'EXPIRE_TIMES_SECONDS'
   },
   default_expire_seconds: {
